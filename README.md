@@ -1,46 +1,22 @@
+```mermaid
 graph TD
-    A[Information Overload & Disaster Content Research] --> B[Global Research Status]
-    A --> C[Japanese Context]
+    A[Disciplinary Background] --> B[Neurobiological Mechanisms]
+    B --> C[Psychological Responses]
+    C --> D[Behavioral Manifestations]
+    D --> E[Regulatory & Buffering Mechanisms]
+    E --> F[Intervention Strategies]
+    F --> G[Identified Research Gaps]
+    G --> H[Future Research Directions]
+    H --> I[This Study's Positioning and Innovation]
 
-    %% Global Research Status
-    B --> D1[Disciplinary Background]
-    B --> D2[Neurobiological Mechanisms]
-    B --> D3[Psychological Responses]
-    B --> D4[Behavioral Manifestations]
-    B --> D5[Regulatory Mechanisms]
-    B --> D6[Intervention Strategies]
-    B --> D7[Research Gaps]
+    subgraph Theoretical Frameworks
+        J1[Emotion Regulation Model (Gross, 1998)]
+        J2[Cognitive Load Theory (Sweller, 1988)]
+        J3[Meta-Emotion Framework (Schramm & Cohen, 2017)]
+        J4[Cyberpunk Perspective (Berardi, 2007)]
+    end
 
-    D1 --> E1[Cognitive Load Theory<br>Sweller, 1988<br>Kirschner et al., 2006]
-    D1 --> E2[Digital Media Psychology<br>Primack et al., 2017]
-    D1 --> E3[Disaster Psychology<br>Holman et al., 2014]
-    D1 --> E4[Emotion Regulation<br>Gross, 1998]
-    D2 --> E5[Amygdala-Prefrontal Pathway<br>Hayes et al., 2012<br>Oz & Cona, 2024]
-    D2 --> E6[Cortisol Effects<br>Freling & Saini, 2024]
-    D3 --> E7[Negative Emotions<br>Huang et al., 2022<br>Koselieren & Cakir, 2024]
-    D3 --> E8[PTSD Symptoms<br>Anand et al., 2021]
-    D4 --> E9[Information Avoidance<br>Liu et al., 2024]
-    D4 --> E10[Decision Biases<br>Baum et al., 2024]
-    D5 --> E11[Resilience<br>Lu & Xu, 2020]
-    D5 --> E12[Metacognition<br>Caputi et al., 2021]
-    D6 --> E13[Cognitive Training<br>APA, 2022]
-    D6 --> E14[AI Filtering<br>Graf & Antoni, 2020]
-    D7 --> E15[No Unified Framework<br>Frontiers, 2023]
-    D7 --> E16[Lack of Longitudinal Studies<br>Wartberg & Lindenberg, 2020]
-    D7 --> E17[Adult Focus Needed<br>Mo et al., 2018]
-
-    %% Japanese Context
-    C --> F1[Emotional Disturbances<br>Gao et al., 2020<br>Kunii et al., 2016]
-    C --> F2[Cognitive & Behavioral Impacts<br>Cheng et al., 2024]
-    C --> F3[Collectivism as Moderator<br>Wang et al., 2022]
-    C --> F4[Research Gaps]
-    F4 --> F5[Lack of Physiological Data<br>Frontiers, 2023]
-    F4 --> F6[Insufficient Adult Studies<br>Caputi et al., 2021]
-
-    %% This Study
-    A --> G[This Study]
-    G --> H1[Integrative Framework<br>Gross, 1998<br>Sweller, 1988]
-    G --> H2[Longitudinal Design<br>1, 3, 6 Months]
-    G --> H3[Neurophysiological Measures<br>HRV, EEG, GSR]
-    G --> H4[Cultural Comparisons<br>Japan vs. U.S./China]
-    G --> H5[Practical Interventions<br>CBT, Community Resilience]
+    J1 --> I
+    J2 --> I
+    J3 --> I
+    J4 --> I
