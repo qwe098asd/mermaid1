@@ -1,4 +1,3 @@
-# mermaid1
 graph TD
     A[Information Overload & Disaster Content Research] --> B[Global Research Status]
     A --> C[Japanese Context]
@@ -45,4 +44,3 @@ graph TD
     G --> H3[Neurophysiological Measures<br>HRV, EEG, GSR]
     G --> H4[Cultural Comparisons<br>Japan vs. U.S./China]
     G --> H5[Practical Interventions<br>CBT, Community Resilience]
-
