@@ -1,8 +1,9 @@
 # mermaid1
-```mermaid
 graph TD
     A[Information Overload & Disaster Content Research] --> B[Global Research Status]
     A --> C[Japanese Context]
+
+    %% Global Research Status
     B --> D1[Disciplinary Background]
     B --> D2[Neurobiological Mechanisms]
     B --> D3[Psychological Responses]
@@ -10,6 +11,7 @@ graph TD
     B --> D5[Regulatory Mechanisms]
     B --> D6[Intervention Strategies]
     B --> D7[Research Gaps]
+
     D1 --> E1[Cognitive Load Theory<br>Sweller, 1988<br>Kirschner et al., 2006]
     D1 --> E2[Digital Media Psychology<br>Primack et al., 2017]
     D1 --> E3[Disaster Psychology<br>Holman et al., 2014]
@@ -27,15 +29,20 @@ graph TD
     D7 --> E15[No Unified Framework<br>Frontiers, 2023]
     D7 --> E16[Lack of Longitudinal Studies<br>Wartberg & Lindenberg, 2020]
     D7 --> E17[Adult Focus Needed<br>Mo et al., 2018]
+
+    %% Japanese Context
     C --> F1[Emotional Disturbances<br>Gao et al., 2020<br>Kunii et al., 2016]
     C --> F2[Cognitive & Behavioral Impacts<br>Cheng et al., 2024]
     C --> F3[Collectivism as Moderator<br>Wang et al., 2022]
     C --> F4[Research Gaps]
     F4 --> F5[Lack of Physiological Data<br>Frontiers, 2023]
     F4 --> F6[Insufficient Adult Studies<br>Caputi et al., 2021]
+
+    %% This Study
     A --> G[This Study]
     G --> H1[Integrative Framework<br>Gross, 1998<br>Sweller, 1988]
     G --> H2[Longitudinal Design<br>1, 3, 6 Months]
     G --> H3[Neurophysiological Measures<br>HRV, EEG, GSR]
     G --> H4[Cultural Comparisons<br>Japan vs. U.S./China]
     G --> H5[Practical Interventions<br>CBT, Community Resilience]
+
